@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect } from 'react';
 
 const StarryNightBackground: React.FC = () => {
@@ -197,6 +196,17 @@ const StarryNightBackground: React.FC = () => {
             });
             
             sun.draw();
+            
+            // Draw orbits
+            ctx.save();
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+            ctx.lineWidth = 0.5;
+            planets.forEach(planet => {
+                ctx.beginPath();
+                ctx.ellipse(planet.sunX, planet.sunY, planet.orbitRadiusX, planet.orbitRadiusY, 0, 0, Math.PI * 2);
+                ctx.stroke();
+            });
+            ctx.restore();
 
             planets.forEach(planet => {
                 planet.update();
