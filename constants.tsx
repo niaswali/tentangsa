@@ -123,6 +123,14 @@ export const pagesData: PageData[] = [
         watchLink: '#',
       },
       {
+        title: 'Roblox',
+        subtitle: 'Developer: Roblox Corporation',
+        content: 'Sebuah platform online yang memungkinkan pengguna untuk membuat dan memainkan game yang dibuat oleh pengguna lain. Dunianya tak terbatas, dari petualangan hingga simulasi kehidupan.',
+        review: 'Ini bukan cuma satu game, tapi jutaan game. Kadang main sama ponakan, kadang coba-coba game aneh yang dibikin orang. Serunya itu kita tidak pernah tahu bakal dapat pengalaman apa. Ada saja game baru yang bikin penasaran.',
+        chatgptReview: 'Selamat, kamu telah menemukan taman bermain digital tak terbatas yang estetikanya didominasi oleh balok dan warna-warna cerah. "Pengalaman tak terduga" itu biasanya antara terjebak di game "obby" (obstacle course) yang mustahil atau menghabiskan uang sungguhan untuk membeli topi virtual untuk avatarmu. Ini adalah tempat di mana kreativitas bertemu... lag.',
+        watchLink: '#',
+      },
+      {
         title: 'Beast Lord: The New Land',
         subtitle: 'Developer: StarFortune',
         content: 'Game strategi di mana kamu berperan sebagai penguasa untuk membangun wilayah, mengumpulkan sumber daya, dan memimpin pasukan binatang buas.',
